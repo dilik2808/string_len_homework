@@ -8,4 +8,16 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    x=""
+    if len(s1)%2==1:
+        x+=s1
+    else: ""
+    if len(s2)%2==1:
+        x+=s2
+    else: ""
+    if len(s3)%2==1:
+        x+=s3
+    else: ""
+    return x
+
+print(main ("qwe", "asd", "zx"))
