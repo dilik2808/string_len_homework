@@ -8,4 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    if s[0:-1:1]==s[-1:0:-1]:
+        return True
+    else: return False
+
+
+print (main ("aka"))
